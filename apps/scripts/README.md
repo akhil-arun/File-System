@@ -4,7 +4,7 @@ The `test_fs.c` program accepts a `script` command which reads a sequence of
 commands from a specified file, and performs them on a filesystem.
 
 This scripting ability is particularly useful to test the reading and writing
-functions (Phase 4), and check that my implementation properly handles the
+functions (Phase 4), and checks that my implementation properly handles the
 special cases (e.g., R/W operations from a non-null offset, small R/W operations
 within a block, large R/W operations spanning multiple blocks, etc.).
 
